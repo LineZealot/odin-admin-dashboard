@@ -9,53 +9,54 @@
 </head>
 <body>
     <div class="sidebar">
+        <div class="logo-slot">
+            <h1 class="logo">Dashboard</h1>
+        </div>
+        
         <div class="admin-nav">
-            <div class="logo-slot">
-                <h1 class="logo">Dashboard</h1>
-            </div>
-            <div class="home">
-                <img src="" alt="Home icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/home-img.svg" alt="Home icon" class="icon">
                 <p class="nav-item">Home</p>
             </div>
 
-            <div class="profile">
-                <img src="" alt="Profile icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/profile-img.svg" alt="Profile icon" class="icon">
                 <p class="nav-item">Profile</p>
             </div>
 
-            <div class="messages">
-                <img src="" alt="Message icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/messages-img.svg" alt="Message icon" class="icon">
                 <p class="nav-item">Message</p>
             </div>
 
-            <div class="history">
-                <img src="" alt="History icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/history-img.svg" alt="History icon" class="icon">
                 <p class="nav-item">History</p>
             </div>
 
-            <div class="tasks">
-                <img src="" alt="Task icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/tasks-img.svg" alt="Task icon" class="icon">
                 <p class="nav-item">Tasks</p>
             </div>
 
-            <div class="communities">
-                <img src="" alt="Community icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/community-img.svg" alt="Community icon" class="icon">
                 <p class="nav-item">Communities</p>
             </div>
         </div>
         <div class="account-control-nav">
-            <div class="settings">
-                <img src="" alt="Settings icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/settings-img.svg" alt="Settings icon" class="icon">
                 <p class="nav-item">Settings</p>
             </div>
 
-            <div class="support">
-                <img src="" alt="Support icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/support-img.svg" alt="Support icon" class="icon">
                 <p class="nav-item">Support</p>
             </div>
 
-            <div class="privacy">
-                <img src="" alt="Privacy icon" class="icon">
+            <div class="sidebar-box">
+                <img src="images/privacy-img.svg" alt="Privacy icon" class="icon">
                 <p class="nav-item">Privacy</p>
             </div>
         </div>
@@ -63,12 +64,29 @@
 
     <div class="user-interface">
         <div class="top-bar">
-            <div class="search-bar"></div>
-            <div class="notification"></div>
-            <div class="profile"></div>
+            <div class="search-bar">
+                <form action="post">
+                    <button type="submit"><img src="" alt="Search button"></button>
+                    <input type="search">
+                </form>
+            </div>
+
+            <div class="notification">
+                <img src="" alt="Ringing bell icon" class="white-icon">
+            </div>
+
+            <div class="profile">
+                <p class="username">Morgan Oakley</p>
+            </div>
         </div>
+
         <div class="bottom-bar">
-            <div class="welcome-profile"></div>
+            <div class="welcome-profile">
+                <img src="" alt="Profile image" class="welcome-image">
+                <p class="welcome-message">Hi there,</p>
+                <h1 class="welcome-username">Morgan Oakley (@morgan)</h1>
+            </div>
+            
             <div class="controls">
                 <button class="project-control new">New</button>
                 <button class="project-control upload">Upload</button>
