@@ -56,3 +56,15 @@ body {
     background-color: var(---dashboard-blue);
     color: white;
 }
+
+.project-area {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background-color: rgb(233, 233, 233);
+}
+
+.your-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr repeat(3, 4fr);
+}
