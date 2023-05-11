@@ -17,6 +17,7 @@ body {
     grid-template-columns: 25% 75%;
     grid-template-rows: 20% 80%;
     ---dashboard-blue: rgb(0, 145, 212);
+    ---sidebar-hover: rgb(12, 164, 235);
 }
 
 .sidebar {
@@ -45,14 +46,12 @@ body {
 .admin-nav {
     display: grid;
     grid-template-rows: repeat(6, 1fr);
-    row-gap: 2vh;
     margin-bottom: 8vh;
 }
 
 .account-control-nav {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 2vh;
 }
 
 .sidebar-box, .logo-slot {
@@ -62,6 +61,17 @@ body {
     align-content: center;
     grid-template-columns: 1fr 4fr;
     padding-left: 2vw;
+}
+
+.sidebar-box {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.sidebar-box:hover {
+    background-color: var(---sidebar-hover);
+    border-radius: 1rem;
+    cursor: pointer;
 }
 
 .icon {
