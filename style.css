@@ -36,11 +36,11 @@ body {
 
 .logo-icon {
     justify-self: center;
-    height: 2.5rem;
+    height: max(15px, 3vw);
 }
 
 .logo {
-    font-size: 28px;
+    font-size: max(12px, 2vw);
 }
 
 .admin-nav {
@@ -55,7 +55,7 @@ body {
 }
 
 .sidebar-box, .logo-slot {
-    font-size: 20px;
+    font-size: max(10px, 1.5vw);
     font-weight: 700;
     display: grid;
     align-content: center;
@@ -74,9 +74,15 @@ body {
     cursor: pointer;
 }
 
+.nav-item {
+    align-self: center;
+}
+
 .icon {
     justify-self: center;
-    height: 1.5rem;
+    align-self: center;
+    height: max(10px, 2.5vw);
+    width: auto;
     color: white;
 }
 
