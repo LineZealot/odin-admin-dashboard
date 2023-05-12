@@ -58,7 +58,7 @@ body {
 }
 
 .sidebar-box, .logo-slot {
-    font-size: max(10px, 1.5vw);
+    font-size: max(12px, 1.5vw);
     font-weight: 700;
     display: grid;
     align-content: center;
@@ -97,13 +97,16 @@ body {
     box-shadow: 0px 4px 4px var(---shadow-color);
 }
 
+.top-bar, .bottom-bar {
+    margin-left: 2.5vw;
+}
+
 .top-bar {
     display: grid;
     grid-template-columns: 5fr 3fr;
     align-items: center;
     grid-row: 1/2;
     margin-top: 1vh;
-    margin-left: 2.5vw;
 }
 
 .search-form {
@@ -152,12 +155,14 @@ input[type= search] {
     grid-column: 3/4;
     font-weight: 700;
     padding-left: 2vw;
+    font-size: max(8px, 1vw);
 }
 
 .bottom-bar {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
+    align-self: center;
     align-items: center;
     grid-row: 2/3;
 }
@@ -165,26 +170,26 @@ input[type= search] {
 .welcome-profile {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 3vh 3vh;
     grid-column: 1/2;
     grid-row: 1/3;
+    align-items: center;
 }
 
 .large-profile-pic {
     grid-column: 1/2;
     grid-row: 1/3;
-    height: 64px;
-    width: 64px;
+    height: max(40px, 5vw);
+    width: max(40px, 5vw);
     border-radius: 100%;
-    justify-self: center;
 }
 
 .welcome-message {
-
+    font-size: max(10px, 1vw);
 }
 
 .welcome-username {
-
+    font-size: max(16px, 1.5vw);
 }
 
 .controls {
@@ -194,14 +199,16 @@ input[type= search] {
     grid-row: 2/3;
     gap: 1vh;
     align-content: center;
+    margin-right: 4vw;
+    font-size: max(8px, 1vw);
 }
 
 .project-control {
     display: grid;
     align-content: center;
     justify-content: center;
-    height: 2.5rem;
-    width: 100%;
+    height: 2rem;
+    width: max(48px, 6vw);
     border-radius: 2.5rem;
     background-color: var(---dashboard-blue);
     color: white;
