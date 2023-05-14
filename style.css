@@ -337,3 +337,9 @@ input[type= search] {
     grid-row: 4/5;
     height: 100%;
 }
+
+.small-profile-pic {
+    height: max(32px, 3vw);
+    width: max(32px, 3vw);
+    border-radius: 100%;
+}
