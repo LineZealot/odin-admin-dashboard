@@ -73,7 +73,6 @@ body {
 
 .sidebar-box:hover {
     background-color: var(---sidebar-hover);
-    border-radius: 1rem;
     cursor: pointer;
 }
 
@@ -130,6 +129,13 @@ input[type= search] {
 
 .white-icon {
     height: 20px;
+    padding: 8px;
+}
+
+.white-icon:hover {
+    background-color: var(---slight-grey);
+    border-radius: 100%;
+    cursor: pointer;
 }
 
 .profile {
@@ -141,7 +147,7 @@ input[type= search] {
 .notification {
     grid-column: 1/2;
     justify-self: end;
-    padding-right: 2vw;
+    margin-right: 2vw;
 }
 
 .medium-profile-pic {
@@ -211,6 +217,11 @@ input[type= search] {
     border-radius: 2.5rem;
     background-color: var(---dashboard-blue);
     color: white;
+}
+
+.project-control:hover {
+    background-color: var(---sidebar-hover);
+    cursor: pointer;
 }
 
 .project, .content-box {
